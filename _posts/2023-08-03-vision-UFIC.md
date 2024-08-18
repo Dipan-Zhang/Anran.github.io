@@ -2,7 +2,7 @@
 layout: post
 title:  "Visuo-tactile Exploration of Unknown Environment"
 date:   2023-08-03 22:21:59 +00:00
-image: /images/projects/wiping.jpg
+image: ./images/projects/wiping.jpg
 categories: research
 author: "Anran Zhang"
 authors: "<strong>Anran Zhang</strong>, Kübra Karacan"
