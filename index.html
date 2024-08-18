@@ -83,7 +83,7 @@
             <tbody>
 
 
-              <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+              <!-- <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='nuvo_image'><video width=100% muted autoplay loop>
@@ -127,68 +127,49 @@
                     NeRF-like models.
                   </p>
                 </td>
-              </tr>
+              </tr> -->
 
 
+              <!-- project va-ufic -->
               <tr onmouseout="cat3d_stop()" onmouseover="cat3d_start()" bgcolor="#ffffd0">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='cat3d_image'><video width=100% height=100% muted autoplay loop>
-                        <source src="images/cat3d.mp4" type="video/mp4">
+                    <div class="two" id='vaufic_image'><video width=100% height=100% muted autoplay loop>
+                        <source src="images/projects/test.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                       </video></div>
-                    <img src='images/cat3d.jpg' width="160">
+                    <img src='/images/projects/wiping.jpg.jpg' width="160">
                   </div>
                   <script type="text/javascript">
                     function cat3d_start() {
-                      document.getElementById('cat3d_image').style.opacity = "1";
+                      document.getElementById('vaufic_image').style.opacity = "1";
                     }
 
                     function cat3d_stop() {
-                      document.getElementById('cat3d_image').style.opacity = "0";
+                      document.getElementById('vaufic_image').style.opacity = "0";
                     }
                     cat3d_stop()
                   </script>
                 </td>
+
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://cat3d.github.io/">
-                    <span class="papertitle">CAT3D: Create Anything in 3D with Multi-View Diffusion Models </span>
+                    <span class="papertitle">Visuo-tactile Exploration of Unknown Environment </span>
                   </a>
                   <br>
-                  <a href="https://ruiqigao.github.io/">Ruiqi Gao</a>*,
-                  <a href="https://holynski.org/">Aleksander Holynski</a>*,
-                  <a href="https://henzler.github.io/">Philipp Henzler</a>,
-                  <a href="https://github.com/ArthurBrussee">Arthur Brussee</a>,
-                  <a href="http://ricardomartinbrualla.com/">Ricardo Martin Brualla</a>,
-                  <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>,
-                  <strong>Jonathan T. Barron</strong>,
-                  <a href="https://poolio.github.io/">Ben Poole</a>*
-
+                  <strong>Anran Zhang</strong>, Kübra Karacan
                   <br>
-                  <em>arXiv</em>, 2024
+                  <em>IROS</em>, 2024
                   <br>
                   <a href="https://cat3d.github.io/">project page</a>
                   /
-                  <a href="https://arxiv.org/abs/2405.10314">arXiv</a>
+                  <a href="https://arxiv.org/abs/2405.10314">Paper</a>
                   <p></p>
                   <p>
-                    A single model built around diffusion and NeRF that does text-to-3D, image-to-3D, and few-view
-                    reconstruction, trains in 1 minute, and renders at 60FPS in a browser.
+                    Autonomous exploration of Unknown 3d surface leveraging vision-augumented unified force impedance control for arbitrary force/motion policy.
                   </p>
                 </td>
               </tr>
-
-
-
-
-
-
-
-
-
-
-
-
 
             </tbody>
           </table>
@@ -234,31 +215,29 @@
               <tr>
                 <td style="padding-bottom:50px;width:100%;vertical-align:middle">
                   <div class="icon-container">
-                    <img src="assets/icons/c++.png" alt="Icon 1">
-                    <img src="assets/icons/python.png" alt="Icon 2">
-                    <img src="assets/icons/ros.png" alt="Icon 3">
-                    <img src="assets/icons/matlab.png" alt="Icon 4">
-                    <img src="assets/icons/conda.png" alt="Icon 5">
-                    <img src="assets/icons/git.png" alt="Icon 6">
-                    <img src="assets/icons/docker.png" alt="Icon 7">
-                    <img src="assets/icons/gepetto-high-white-203x200.png" alt="Icon 25">
-                    <img src="assets/icons/casadi.png" alt="Icon 26">
-                    <img src="assets/icons/linux.png" alt="Icon 8">
-                    <img src="assets/icons/vim.png" alt="Icon 9">
-                    <img src="assets/icons/opencv-logo.png" alt="Icon 10">
-                    <img src="assets/icons/Pcl.png" alt="Icon 13">
-                    <img src="assets/icons/tf.png" alt="Icon 11">
-                    <img src="assets/icons/pytorch.png" alt="Icon 12">
-                    <img src="assets/icons/stackoverflow.png" alt="Icon 17">
-                    <img src="assets/icons/html.png" alt="Icon 13">
-                    <img src="assets/icons/latex.png" alt="Icon 14">
-                    <img src="assets/icons/markdown.png" alt="Icon 15">
-
-                    <img src="assets/icons/notion.png" alt="Icon 18">
-                    <img src="assets/icons/confluence.png" alt="Icon 19">
-                    <img src="assets/icons/catia.png" alt="Icon 22">
-                    <img src="assets/icons/3d-printer.jpg" alt="Icon 23">
-                    <img src="assets/icons/sw.jpg" alt="Icon 24">
+                    <img src="images/icons/c++.png" alt="Icon 1">
+                    <img src="images/icons/python.png" alt="Icon 2">
+                    <img src="images/icons/ros.png" alt="Icon 3">
+                    <img src="images/icons/matlab.png" alt="Icon 4">
+                    <img src="images/icons/conda.png" alt="Icon 5">
+                    <img src="images/icons/git.png" alt="Icon 6">
+                    <img src="images/icons/docker.png" alt="Icon 7">
+                    <img src="images/icons/gepetto-high-white-203x200.png" alt="Icon 25">
+                    <img src="images/icons/casadi.png" alt="Icon 26">
+                    <img src="images/icons/linux.png" alt="Icon 8">
+                    <img src="images/icons/vim.png" alt="Icon 9">
+                    <img src="images/icons/opencv-logo.png" alt="Icon 10">
+                    <img src="images/icons/Pcl.png" alt="Icon 13">
+                    <img src="images/icons/tf.png" alt="Icon 11">
+                    <img src="images/icons/pytorch.png" alt="Icon 12">
+                    <img src="images/icons/stackoverflow.png" alt="Icon 17">
+                    <img src="images/icons/html.png" alt="Icon 13">
+                    <img src="images/icons/latex.png" alt="Icon 14">
+                    <img src="images/icons/markdown.png" alt="Icon 15">
+                    <img src="images/icons/confluence.png" alt="Icon 19">
+                    <img src="images/icons/catia.png" alt="Icon 22">
+                    <img src="images/icons/3d-printer.jpg" alt="Icon 23">
+                    <img src="images/icons/sw.jpg" alt="Icon 24">
                   </div>
                 </td>
               </tr>
