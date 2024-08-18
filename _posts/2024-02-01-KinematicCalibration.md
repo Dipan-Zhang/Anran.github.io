@@ -2,7 +2,7 @@
 layout: post
 title:  "Kinematic Calibration"
 date:   2024-02-01 22:21:59 +00:00
-image: ../images/laser.jpg
+image: images/projects/laser.jpg
 categories: Other
 author: "Anran Zhang"
 # authors: "<strong>Kübra Karacan</strong>, Anran Zhang"

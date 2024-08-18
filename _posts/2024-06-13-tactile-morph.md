@@ -2,7 +2,7 @@
 layout: post
 title:  "Tactile-Morph Skills: Energy-based Control Meets Data-Driven Learning"
 date:   2023-08-03 22:21:59 +00:00
-image: ../images/.jpg
+image: ../images/projects/.jpg
 categories: research
 author: "Anran"
 authors: "<strong>Anran Zhang</strong>, Kübra Karacan, Hamid Sadeghian, Yansong Wu, Fan Wu, Sami Haddadin"

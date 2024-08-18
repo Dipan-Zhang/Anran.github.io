@@ -2,7 +2,7 @@
 layout: post
 title:  "Robot Control Playground"
 date:   2023-03-01 22:21:59 +00:00
-image: ../images/simulation.jpg
+image: ../images/projects/simulation.jpg
 categories: Other
 author: "Anran Zhang"
 # authors: "<strong>Kübra Karacan</strong>, Anran Zhang"
