@@ -8,7 +8,7 @@
 
   <meta name="author" content="Anran Zhang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/icons/valley.jpg" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 </head>
@@ -28,7 +28,7 @@
                     Anran Zhang
                   </p>
                   <p>Hi, my name is Anran Zhang. I am currently studying Mechatronics and Robotics (M.Sc) at
-                    Technical University of Munich. I am enthastic about generalizable robot manipulation and control.
+                    Technical University of Munich. I am enthastic about generalizable robot manipulation and energy-based control.
                     Currently I am doing my master thesis at <a href="https://srl.cit.tum.de/">Smart Robotics Lab</a>.
                   </p>
 
@@ -115,11 +115,13 @@
                   On-going master thesis, Smart Robotics Lab @ TUM
                   <br>
                   <p>
-                    - Object-level scene reconstruction from single-view image input
+                    To enable robots to manipulate objects in a generalizable way, we aim to develop a framework that:
                     <br>
-                    - Lift 2D features to 3D scene leveraging foundation models
+                    - recontruct scene from single-view image input at object-level.
                     <br>
-                    - Transfer manipulation policy across category
+                    - distill 2D features to 3D scene leveraging foundation models
+                    <br>
+                    - transfer manipulation policy across category with feature matching of the scene
                   </p>
                 </td>
               </tr>
@@ -177,11 +179,11 @@
                   <div class="one">
                     <div class="two" id='vaufic_image'>
                       <video width=100% height=100% muted autoplay loop>
-                        <source src="images/projects/exp_2x.mp4" type="video/mp4">
+                        <source src="images/projects/exp_2x_sq.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                       </video>
                     </div>
-                    <img src='images/projects/wiping_sq.png' width="160">
+                    <img src='images/projects/VT_workflow.png' width="160">
                   </div>
                   <script type="text/javascript">
                     function vaufic_start() {
@@ -209,8 +211,12 @@
 
                   <p></p>
                   <p>
-                    Autonomous exploration of Unknown 3d surface leveraging vision-augumented unified force impedance
-                    control for arbitrary force/motion policy.
+                    Aiming at intuitive visuotactile exploration of unknown 3D curvatures, we propose Vision-Augmented Unified
+                    Force-Impedance Control (VA-UFIC). 
+                    <br>
+                    - combining tactile and vision perception for a robust online contact monitoring system
+                    <br>
+                    - integrating contact alignment monitoring into VA-UFIC to adapt the robot's stiffness and regulate the force profile.
                   </p>
                 </td>
               </tr>
